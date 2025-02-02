@@ -1,0 +1,4 @@
+# Scala Exception Handling Bug
+This repository demonstrates a common Scala coding error involving exception handling within class methods. The `MyClass` class contains a method `myMethod` that throws an `IllegalArgumentException` if the input `x` is not positive. This is a basic example, but in larger applications, insufficient exception handling can cause unexpected behavior and data loss.
+
+**The Bug:** The exception handling itself isn't inherently wrong, but in a real-world scenario, more sophisticated error handling might be needed.  For example, returning a default value, logging the error, or implementing a different strategy for handling the negative value.
